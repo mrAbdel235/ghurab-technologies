@@ -1,1 +1,22 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<title id="title">GHURAB Technologies</title>
+<desc id="desc">Logo futuriste de GHURAB Technologies</desc>
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#53B6FF"/><stop offset="1" stop-color="#168CFF"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(35 25)">
+<rect width="210" height="210" rx="48" fill="#030507" stroke="#168CFF" stroke-width="2"/>
+<circle cx="105" cy="105" r="78" fill="none" stroke="#0B3B66" stroke-width="2"/>
+<path d="M53 137C67 119 77 102 83 80C89 58 105 43 126 40C117 54 116 65 123 74C132 86 151 91 168 88C156 103 143 111 126 115C111 119 96 117 83 112C76 123 69 134 61 145Z" fill="url(#blue)" filter="url(#glow)"/>
+<path d="M83 112C101 102 116 91 126 74C119 90 114 107 116 126C101 124 91 119 83 112Z" fill="#030507"/>
+<circle cx="139" cy="82" r="4" fill="#F2F7FF"/>
+<path d="M48 158H160M70 171H140" stroke="#168CFF" stroke-width="2" opacity=".6"/>
+</g>
+<g transform="translate(285 75)">
+<text x="0" y="55" fill="#F2F7FF" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" letter-spacing="4">GHURAB</text>
+<circle cx="310" cy="40" r="5" fill="#168CFF"/>
+<text x="4" y="101" fill="#53B6FF" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" letter-spacing="7">TECHNOLOGIES</text>
+<text x="4" y="142" fill="#8491A3" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="3">INSPIRED BY INTELLIGENCE. BUILT FOR THE FUTURE.</text>
+</g>
+</svg>
