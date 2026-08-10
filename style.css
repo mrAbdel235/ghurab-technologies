@@ -70,3 +70,143 @@ footer{padding:40px 30px 25px;border-top:1px solid rgba(255,255,255,.05);max-wid
     width: 180px;
   }
 }
+/* =========================================
+   GHURAB SOLUTIONS
+========================================= */
+
+.solutions {
+  position: relative;
+  border-top: 1px solid rgba(255,255,255,.04);
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.solution-card {
+  position: relative;
+  min-height: 350px;
+  padding: 35px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.025),
+      rgba(22,140,255,.025)
+    );
+
+  border: 1px solid rgba(83,182,255,.12);
+
+  overflow: hidden;
+
+  transition:
+    transform .4s ease,
+    border-color .4s ease,
+    box-shadow .4s ease;
+}
+
+.solution-card::before {
+  content: "";
+
+  position: absolute;
+
+  width: 220px;
+  height: 220px;
+
+  right: -100px;
+  top: -100px;
+
+  background: #168CFF;
+
+  opacity: .04;
+
+  border-radius: 50%;
+
+  filter: blur(50px);
+
+  transition: .4s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-8px);
+
+  border-color: rgba(83,182,255,.45);
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,.35),
+    0 0 35px rgba(22,140,255,.08);
+}
+
+.solution-card:hover::before {
+  opacity: .12;
+}
+
+.solution-icon {
+  font-size: 38px;
+
+  color: #53B6FF;
+
+  margin-bottom: 25px;
+
+  text-shadow:
+    0 0 20px rgba(22,140,255,.5);
+}
+
+.solution-number {
+  position: absolute;
+
+  top: 30px;
+  right: 30px;
+
+  font-size: 11px;
+
+  color: #45505E;
+
+  letter-spacing: 2px;
+}
+
+.solution-card h3 {
+  font-family: "Space Grotesk", sans-serif;
+
+  font-size: 27px;
+
+  margin-bottom: 4px;
+}
+
+.solution-category {
+  color: #53B6FF;
+
+  font-size: 10px;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.solution-card p {
+  max-width: 480px;
+
+  color: #8491A3;
+
+  font-size: 14px;
+
+  margin-top: 20px;
+
+  margin-bottom: 28px;
+}
+
+.solution-card a {
+  color: #53B6FF;
+
+  font-size: 13px;
+
+  transition: .3s ease;
+}
+
+.solution-card a:hover {
+  color: white;
+
+  padding-left: 5px;
+}
